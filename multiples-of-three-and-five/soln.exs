@@ -1,3 +1,4 @@
+# https://projecteuler.net/problem=1
 defmodule ProblemSoln do
   def multiple_of_three_and_five(n) do
     sum = 1..n |> Enum.reduce(0, fn(num, acc) ->
